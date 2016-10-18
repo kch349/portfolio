@@ -1,0 +1,14 @@
+.background {
+  width: 100%
+  height: 50%;
+}
+
+.intro-photo {
+  background-image: url("../images/top_background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.navbar-fixed-top {
+  display: none;
+}

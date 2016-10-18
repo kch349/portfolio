@@ -17,3 +17,16 @@ $(function() {
         event.preventDefault();
     });
 });
+
+// Upon scroll, if we reach 10 pixels to the end of the first section, show
+// the navbar. Otherwise hide it.
+$(window).scroll(function() {
+    // Timeout not necessary, but improves the look and feel.
+    setTimeout(function() {
+      if ($(".navbar").offset().top > ($(window).height() - 10)) {
+          $(".navbar-fixed-top").show();
+      } else {
+          $(".navbar-fixed-top").hide();
+      }
+    }, 1);
+});
