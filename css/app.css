@@ -12,3 +12,15 @@
 .navbar-fixed-top {
   display: none;
 }
+
+.contact-intro {
+  font-size: 18px;
+}
+
+.contact-intro strong {
+  font-size: 30px;
+}
+
+.full-screen-nav {
+  padding: calc(18%) 0px;
+}
