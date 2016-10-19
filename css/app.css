@@ -17,10 +17,29 @@
   font-size: 18px;
 }
 
-.contact-intro strong {
+.contact-intro span strong {
   font-size: 30px;
+  padding-right: 150px;
+}
+
+.contact-intro span {
+  padding: 0px 20px;
 }
 
 .full-screen-nav {
-  padding: calc(18%) 0px;
+  padding: calc(10%) 0px;
+}
+
+.intro-nav-btn {
+  padding: 50px 0px;
+  font-size: 18px;
+  border-width: 2px;
+  border-color: black;
+  background-color: rgba(99, 16, 36, 0.2);
+  color: #a8a8a8;
+}
+
+.intro-nav-btn:hover, .intro-nav-btn:focus{
+  background-color: #631024;
+  color: #fff;
 }
