@@ -47,7 +47,10 @@
 .carousel-indicators li {
     background: #ccc;
     position: relative;
-    top: 20px;
+}
+
+div.without-text ol.carousel-indicators li {
+    top: 10px;
 }
 
 .carousel-indicators .active {
@@ -57,10 +60,17 @@
 .carousel {
   width: 75%;
   float: none;
-  padding: 0px 0px 50px 0px;
   background-color: #eee;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.without-text {
+  padding: 0px 0px 20px 0px;
+}
+
+.with-text {
+  padding: 0px 0px 50px 0px;
 }
 
 .carousel-caption {
@@ -75,6 +85,19 @@
 
 .text-header {
   padding-top: 50px;
+}
+
+.coursework-slide-img {
+  height: 670px;
+}
+
+img.architecture-slide-img {
+  height: 750px;
+  margin: auto;
+}
+
+#carousel-architecture > div.item {
+  height:100px !important;
 }
 /*
 .carousel-control.left, .carousel-control.right {
