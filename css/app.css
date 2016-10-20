@@ -46,12 +46,36 @@
 
 .carousel-indicators li {
     background: #ccc;
+    position: relative;
+    top: 20px;
 }
 
 .carousel-indicators .active {
     background: #666;
 }
 
+.carousel {
+  width: 75%;
+  float: none;
+  padding: 0px 0px 50px 0px;
+  background-color: #eee;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.carousel-caption {
+  position: static;
+  color: black;
+  border-width: 0px;
+}
+
+.text-section {
+  padding: 50px 0px;
+}
+
+.text-header {
+  padding-top: 50px;
+}
 /*
 .carousel-control.left, .carousel-control.right {
   background: none !important;
