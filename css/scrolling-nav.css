@@ -44,22 +44,36 @@ of those sections to manage the look and feel of the site. */
     color: #fff;
 }
 
-.about-section {
+.industry-section {
     min-height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #eee;
 }
 
-.services-section {
-    height: 100%;
+.coursework-section {
+    min-height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.architecture-section {
+    min-height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.presentation-section {
+    min-height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
 }
 
 .contact-section {
-    height: 100%;
+    min-height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #eee;
